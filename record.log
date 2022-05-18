@@ -1,0 +1,22 @@
+2022-05-17 16:10:12,965 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/May/2022 16:10:12] "[37mPOST /email/v1 HTTP/1.1[0m" 200 -
+2022-05-17 16:10:37,037 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/emails.py', reloading
+2022-05-17 16:11:57,570 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/May/2022 16:11:57] "[35m[1mPOST /email/v1 HTTP/1.1[0m" 500 -
+2022-05-17 16:12:23,587 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/server.py', reloading
+2022-05-17 16:12:26,735 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/May/2022 16:12:26] "[35m[1mGET /email/v1 HTTP/1.1[0m" 500 -
+2022-05-17 16:12:35,457 INFO server Thread-3 : ------------ EMAIL ROUTE CALLED ------------
+2022-05-17 16:12:35,485 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/May/2022 16:12:35] "[35m[1mGET /email/v1 HTTP/1.1[0m" 500 -
+2022-05-17 16:12:52,505 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/server.py', reloading
+2022-05-17 16:12:56,492 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/May/2022 16:12:56] "[35m[1mGET /email/v1 HTTP/1.1[0m" 500 -
+2022-05-17 16:13:15,942 INFO werkzeug Thread-3 : 127.0.0.1 - - [17/May/2022 16:13:15] "[33mGET /email/v1/send_to=rejisab@gmail.com HTTP/1.1[0m" 404 -
+2022-05-17 16:13:20,628 INFO werkzeug Thread-4 : 127.0.0.1 - - [17/May/2022 16:13:20] "[33mGET /email/v1/send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 404 -
+2022-05-17 16:13:25,809 INFO server Thread-5 : ------------ EMAIL ROUTE CALLED ------------
+2022-05-17 16:13:25,837 INFO werkzeug Thread-5 : 127.0.0.1 - - [17/May/2022 16:13:25] "[35m[1mGET /email/v1?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 500 -
+2022-05-17 16:13:31,429 INFO server Thread-6 : ------------ EMAIL ROUTE CALLED ------------
+2022-05-17 16:13:31,455 INFO werkzeug Thread-6 : 127.0.0.1 - - [17/May/2022 16:13:31] "[35m[1mGET /email/v1?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 500 -
+2022-05-17 16:14:25,756 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/emails.py', reloading
+2022-05-17 16:16:55,056 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/May/2022 16:16:55] "[35m[1mGET /email/v1?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 500 -
+2022-05-17 16:17:48,224 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/server.py', reloading
+2022-05-17 16:17:51,678 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/May/2022 16:17:51] "[35m[1mGET /email/v1?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 500 -
+2022-05-17 16:18:12,044 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/server.py', reloading
+2022-05-17 16:18:21,715 INFO werkzeug Thread-2 : 127.0.0.1 - - [17/May/2022 16:18:21] "[37mGET /email/v1?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
+2022-05-17 16:30:55,558 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/RSE/src/emails.py', reloading
