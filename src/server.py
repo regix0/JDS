@@ -5,9 +5,9 @@ from flask_cors import CORS
 from src import config
 from sqlalchemy import true
 import requests
-from src.log import take_log
+from src.logging import take_log
 
-from src.emails import send_email
+from src.email import email_send
 
 APP = Flask(__name__, template_folder='../templates')
 CORS(APP)
@@ -28,13 +28,13 @@ APP.config['TRAP_HTTP_EXCEPTIONS'] = True
 APP.register_error_handler(Exception, defaultHandler)
  
  
-@APP.route("/email/v1", methods=['GET'])
-def email_send():
+@APP.route("/email/v2", methods=['GET'])
+def emails_send():
     APP.logger.info('------------ EMAIL ROUTE CALLED ------------')
     take_log()
     send_to = str(request.args.get('send_to'))
     print("Email Sending API In Progress...")
-    return dumps(send_email(send_to))
+    return dumps(email_send(send_to))
 
     
 
