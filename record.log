@@ -217,3 +217,264 @@
 2022-05-20 18:38:41,996 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
 2022-05-20 18:38:48,309 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:38:48] "[37mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
 2022-05-20 18:39:14,305 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-22 12:38:02,441 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:38:02] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-22 12:38:02,470 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:38:02] "[33mGET /static/form.js HTTP/1.1[0m" 404 -
+2022-05-22 12:38:14,872 INFO server Thread-4 : ------------ ONE TIME FORM CALLED ------------
+2022-05-22 12:38:14,923 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:38:14] "[35m[1mGET /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:38:14,967 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:38:14] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:38:14,973 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:38:14] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:38:14,973 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:38:14] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:38:15,072 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:38:15] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:38:15,107 INFO werkzeug Thread-9 : 127.0.0.1 - - [22/May/2022 12:38:15] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:38:15,184 INFO werkzeug Thread-10 : 127.0.0.1 - - [22/May/2022 12:38:15] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:39:12,316 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:39:21,240 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:39:21] "[35m[1mGET /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:39:21,278 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:39:21] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:39:21,278 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:39:21] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:39:21,279 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:39:21] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:39:21,379 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:39:21] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:39:21,400 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:39:21] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:39:21,463 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:39:21] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:39:24,389 INFO server Thread-9 : ------------ ONE TIME FORM CALLED ------------
+2022-05-22 12:39:24,433 INFO werkzeug Thread-9 : 127.0.0.1 - - [22/May/2022 12:39:24] "[35m[1mGET /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:39:24,469 INFO werkzeug Thread-10 : 127.0.0.1 - - [22/May/2022 12:39:24] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:39:24,469 INFO werkzeug Thread-11 : 127.0.0.1 - - [22/May/2022 12:39:24] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:39:24,471 INFO werkzeug Thread-12 : 127.0.0.1 - - [22/May/2022 12:39:24] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:39:24,515 INFO werkzeug Thread-13 : 127.0.0.1 - - [22/May/2022 12:39:24] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:39:24,526 INFO werkzeug Thread-14 : 127.0.0.1 - - [22/May/2022 12:39:24] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:39:24,575 INFO werkzeug Thread-15 : 127.0.0.1 - - [22/May/2022 12:39:24] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:39:44,531 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:40:45,803 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:40:45] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 12:41:11,878 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-22 12:41:11,886 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:41:11] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-22 12:41:16,100 INFO server Thread-4 : ------------ ONE TIME FORM CALLED ------------
+2022-05-22 12:41:16,103 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:41:16] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 12:41:26,324 INFO server Thread-5 : ------------ ONE TIME FORM CALLED ------------
+2022-05-22 12:41:26,362 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:41:26] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:41:26,395 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:41:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:41:26,400 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:41:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:41:26,400 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:41:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:41:26,453 INFO werkzeug Thread-9 : 127.0.0.1 - - [22/May/2022 12:41:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:41:26,467 INFO werkzeug Thread-10 : 127.0.0.1 - - [22/May/2022 12:41:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:41:26,512 INFO werkzeug Thread-11 : 127.0.0.1 - - [22/May/2022 12:41:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:42:02,260 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:42:08,537 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:42:08] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:42:08,573 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:42:08] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:42:08,575 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:42:08] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:42:08,576 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:42:08] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:42:08,629 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:42:08] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:42:08,639 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:42:08] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:42:08,709 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:42:08] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:42:11,810 INFO server Thread-9 : ------------ ONE TIME FORM CALLED ------------
+2022-05-22 12:42:11,849 INFO werkzeug Thread-9 : 127.0.0.1 - - [22/May/2022 12:42:11] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:42:11,886 INFO werkzeug Thread-10 : 127.0.0.1 - - [22/May/2022 12:42:11] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:42:11,887 INFO werkzeug Thread-11 : 127.0.0.1 - - [22/May/2022 12:42:11] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:42:11,890 INFO werkzeug Thread-12 : 127.0.0.1 - - [22/May/2022 12:42:11] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:42:11,938 INFO werkzeug Thread-13 : 127.0.0.1 - - [22/May/2022 12:42:11] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:42:11,951 INFO werkzeug Thread-14 : 127.0.0.1 - - [22/May/2022 12:42:11] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:42:11,995 INFO werkzeug Thread-15 : 127.0.0.1 - - [22/May/2022 12:42:11] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:44:41,436 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:46:26,080 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:46:26] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:46:26,113 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:46:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:46:26,116 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:46:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:46:26,116 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:46:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:46:26,166 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:46:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:46:26,181 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:46:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:46:26,224 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:46:26] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:46:50,390 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:47:05,655 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:47:05] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:47:05,700 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:47:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:47:05,703 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:47:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:47:05,704 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:47:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:47:05,752 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:47:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:47:05,762 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:47:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:47:05,807 INFO werkzeug Thread-9 : 127.0.0.1 - - [22/May/2022 12:47:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:47:40,904 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:48:31,283 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:48:31] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:48:31,314 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:48:31] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:48:31,316 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:48:31] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:48:31,317 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:48:31] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:48:31,368 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:48:31] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:48:31,381 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:48:31] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:48:31,423 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:48:31] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:48:57,081 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:49:01,334 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:49:01] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:49:01,373 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:49:01] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:49:01,375 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:49:01] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:49:01,376 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:49:01] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:49:01,424 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:49:01] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:49:01,445 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:49:01] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:49:01,494 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:49:01] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:51:00,199 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:51:04,979 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:51:04] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:51:05,013 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:51:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:51:05,015 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:51:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:51:05,015 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:51:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:51:05,068 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:51:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:51:05,084 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:51:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:51:05,134 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:51:05] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:51:29,701 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:51:34,629 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:51:34] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:51:34,668 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:51:34] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:51:34,671 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:51:34] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:51:34,671 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:51:34] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:51:34,738 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:51:34] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:51:34,745 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:51:34] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:51:34,805 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:51:34] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:55:42,709 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:56:16,371 INFO apscheduler.scheduler Thread-2 : Added job "job" to job store "default"
+2022-05-22 12:56:16,372 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 12:56:16,374 WARNING apscheduler.executors.default ThreadPoolExecutor-0_0 : Run time of job "job (trigger: date[2009-11-06 00:00:00 AEDT], next run at: 2009-11-06 00:00:00 AEDT)" was missed by 4580 days, 13:56:16.374376
+2022-05-22 12:56:16,375 INFO apscheduler.scheduler APScheduler : Removed job 9cdc60be207b4114bc20ac2bdf90c613
+2022-05-22 12:56:16,375 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 12:56:16,383 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:56:16] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 12:56:24,583 INFO server Thread-3 : ------------ ONE TIME FORM CALLED ------------
+2022-05-22 12:56:24,584 INFO apscheduler.scheduler Thread-3 : Added job "job" to job store "default"
+2022-05-22 12:56:24,585 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 12:56:24,585 INFO apscheduler.scheduler APScheduler : Removed job 2a62aea9b04d41c2bdde941c33adf5c4
+2022-05-22 12:56:24,586 WARNING apscheduler.executors.default ThreadPoolExecutor-0_0 : Run time of job "job (trigger: date[2009-11-06 00:00:00 AEDT], next run at: 2009-11-06 00:00:00 AEDT)" was missed by 4580 days, 13:56:24.586061
+2022-05-22 12:56:24,586 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 12:56:24,587 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:56:24] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 12:57:55,731 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-22 12:58:10,674 INFO apscheduler.scheduler Thread-2 : Added job "job" to job store "default"
+2022-05-22 12:58:10,675 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 12:58:10,676 WARNING apscheduler.executors.default ThreadPoolExecutor-0_0 : Run time of job "job (trigger: date[2009-11-06 00:00:00 AEDT], next run at: 2009-11-06 00:00:00 AEDT)" was missed by 4580 days, 13:58:10.676665
+2022-05-22 12:58:10,676 INFO apscheduler.scheduler APScheduler : Removed job e0b3e21182ce447d85c19309d062195c
+2022-05-22 12:58:10,677 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 12:58:10,686 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:58:10] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 12:59:18,494 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 12:59:28,733 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 12:59:28] "[35m[1mPOST /onetime-form HTTP/1.1[0m" 500 -
+2022-05-22 12:59:28,774 INFO werkzeug Thread-3 : 127.0.0.1 - - [22/May/2022 12:59:28] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-22 12:59:28,775 INFO werkzeug Thread-4 : 127.0.0.1 - - [22/May/2022 12:59:28] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-22 12:59:28,776 INFO werkzeug Thread-5 : 127.0.0.1 - - [22/May/2022 12:59:28] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-22 12:59:28,871 INFO werkzeug Thread-6 : 127.0.0.1 - - [22/May/2022 12:59:28] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-22 12:59:28,896 INFO werkzeug Thread-7 : 127.0.0.1 - - [22/May/2022 12:59:28] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 12:59:28,953 INFO werkzeug Thread-8 : 127.0.0.1 - - [22/May/2022 12:59:28] "[37mGET /onetime-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-22 13:00:06,448 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 13:00:09,886 INFO apscheduler.scheduler Thread-2 : Added job "job" to job store "default"
+2022-05-22 13:00:09,887 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:00:09,888 WARNING apscheduler.executors.default ThreadPoolExecutor-0_0 : Run time of job "job (trigger: date[2022-05-22 01:01:05 AEST], next run at: 2022-05-22 01:01:05 AEST)" was missed by 11:59:04.888818
+2022-05-22 13:00:09,889 INFO apscheduler.scheduler APScheduler : Removed job cd61483bb75349959c045ff88d4e8b13
+2022-05-22 13:00:09,889 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 13:00:09,899 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:00:09] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:02:29,012 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 13:02:37,276 INFO apscheduler.scheduler Thread-2 : Added job "job" to job store "default"
+2022-05-22 13:02:37,277 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:02:37,277 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-22 14:03:05+10:00 (in 3627.722295 seconds)
+2022-05-22 13:02:37,287 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:02:37] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:07:18,585 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py', reloading
+2022-05-22 13:08:36,454 INFO apscheduler.scheduler Thread-2 : Added job "job" to job store "default"
+2022-05-22 13:08:36,455 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:08:36,456 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-22 13:10:05+10:00 (in 88.543772 seconds)
+2022-05-22 13:08:36,466 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:08:36] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:10:05,001 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:10:05,002 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "job (trigger: date[2022-05-22 13:10:05 AEST], next run at: 2022-05-22 13:10:05 AEST)" (scheduled at 2022-05-22 13:10:05+10:00)
+2022-05-22 13:10:05,003 INFO apscheduler.scheduler APScheduler : Removed job c3e5ecaf5ad644f591587fe3549e57b6
+2022-05-22 13:10:05,004 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 13:10:05,012 ERROR apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "job (trigger: date[2022-05-22 13:10:05 AEST], next run at: 2022-05-22 13:10:05 AEST)" raised an exception
+Traceback (most recent call last):
+  File "/home/regi/.local/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py", line 10, in job
+    send_to = data['receiver']
+TypeError: string indices must be integers
+2022-05-22 13:10:47,100 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 13:12:29,002 INFO apscheduler.scheduler Thread-2 : Added job "job" to job store "default"
+2022-05-22 13:12:29,003 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:12:29,003 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-22 13:13:05+10:00 (in 35.996238 seconds)
+2022-05-22 13:12:29,014 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:12:29] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:13:05,001 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:13:05,003 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "job (trigger: date[2022-05-22 13:13:05 AEST], next run at: 2022-05-22 13:13:05 AEST)" (scheduled at 2022-05-22 13:13:05+10:00)
+2022-05-22 13:13:05,003 INFO apscheduler.scheduler APScheduler : Removed job 977b0db90d73460595aa7d90d7612e4c
+2022-05-22 13:13:05,004 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 13:13:05,008 ERROR apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "job (trigger: date[2022-05-22 13:13:05 AEST], next run at: 2022-05-22 13:13:05 AEST)" raised an exception
+Traceback (most recent call last):
+  File "/home/regi/.local/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py", line 10, in job
+    send_to = data['receiver']
+TypeError: string indices must be integers
+2022-05-22 13:13:21,419 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 13:15:05,698 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-22 13:15:05,699 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:15:05,701 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "my_job (trigger: date[2022-05-22 13:15:05 AEST], next run at: 2022-05-22 13:15:05 AEST)" (scheduled at 2022-05-22 13:15:05+10:00)
+2022-05-22 13:15:05,701 INFO apscheduler.scheduler APScheduler : Removed job 261477ad3bee462eb7098886fc100b28
+2022-05-22 13:15:05,702 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 13:15:05,705 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-22 13:15:05,711 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:15:05] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:15:07,488 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-22 13:15:12,357 ERROR apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "my_job (trigger: date[2022-05-22 13:15:05 AEST], next run at: 2022-05-22 13:15:05 AEST)" raised an exception
+Traceback (most recent call last):
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py", line 56, in email_send
+    smtpObj.sendmail(send_from, send_to, msg.as_string())
+  File "/usr/lib/python3.8/smtplib.py", line 894, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'send_to': (553, b'5.1.3 The recipient address <send_to> is not a valid RFC-5321 address. Learn\n5.1.3 more at\n5.1.3  https://support.google.com/mail/answer/6596 g2-20020a170902d5c200b00161478027f5sm2288553plh.150 - gsmtp')}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/regi/.local/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py", line 11, in my_job
+    email_send(send_to)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py", line 62, in email_send
+    raise AccessError(e)
+src.error.AccessError: 403 Forbidden: {'send_to': (553, b'5.1.3 The recipient address <send_to> is not a valid RFC-5321 address. Learn\n5.1.3 more at\n5.1.3  https://support.google.com/mail/answer/6596 g2-20020a170902d5c200b00161478027f5sm2288553plh.150 - gsmtp')}
+2022-05-22 13:17:39,039 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-22 13:17:44,607 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-22 13:17:44,608 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:17:44,609 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-22 13:18:05+10:00 (in 20.390798 seconds)
+2022-05-22 13:17:44,620 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:17:44] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:18:05,001 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:18:05,003 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "my_job (trigger: date[2022-05-22 13:18:05 AEST], next run at: 2022-05-22 13:18:05 AEST)" (scheduled at 2022-05-22 13:18:05+10:00)
+2022-05-22 13:18:05,003 INFO apscheduler.scheduler APScheduler : Removed job dbb17c18ca5c40f5b0e048ad50045ae0
+2022-05-22 13:18:05,004 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 13:18:05,005 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-22 13:18:06,741 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-22 13:18:11,332 ERROR apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "my_job (trigger: date[2022-05-22 13:18:05 AEST], next run at: 2022-05-22 13:18:05 AEST)" raised an exception
+Traceback (most recent call last):
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py", line 56, in email_send
+    smtpObj.sendmail(send_from, send_to, msg.as_string())
+  File "/usr/lib/python3.8/smtplib.py", line 894, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'send_to': (553, b'5.1.3 The recipient address <send_to> is not a valid RFC-5321 address. Learn\n5.1.3 more at\n5.1.3  https://support.google.com/mail/answer/6596 b134-20020a63348c000000b003c14af5062dsm2163867pga.69 - gsmtp')}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/regi/.local/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py", line 11, in my_job
+    email_send(send_to)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py", line 62, in email_send
+    raise AccessError(e)
+src.error.AccessError: 403 Forbidden: {'send_to': (553, b'5.1.3 The recipient address <send_to> is not a valid RFC-5321 address. Learn\n5.1.3 more at\n5.1.3  https://support.google.com/mail/answer/6596 b134-20020a63348c000000b003c14af5062dsm2163867pga.69 - gsmtp')}
+2022-05-22 13:22:32,506 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-22 13:22:32,507 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:22:32,508 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-22 13:24:05+10:00 (in 92.491417 seconds)
+2022-05-22 13:22:32,517 INFO werkzeug Thread-2 : 127.0.0.1 - - [22/May/2022 13:22:32] "[37mPOST /onetime-form HTTP/1.1[0m" 200 -
+2022-05-22 13:24:05,001 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-22 13:24:05,003 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "my_job (trigger: date[2022-05-22 13:24:05 AEST], next run at: 2022-05-22 13:24:05 AEST)" (scheduled at 2022-05-22 13:24:05+10:00)
+2022-05-22 13:24:05,003 INFO apscheduler.scheduler APScheduler : Removed job 7717de96b52f40d8934fa58f44211990
+2022-05-22 13:24:05,004 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2022-05-22 13:24:05,007 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-22 13:24:06,780 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-22 13:24:11,402 ERROR apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "my_job (trigger: date[2022-05-22 13:24:05 AEST], next run at: 2022-05-22 13:24:05 AEST)" raised an exception
+Traceback (most recent call last):
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py", line 56, in email_send
+    smtpObj.sendmail(send_from, send_to, msg.as_string())
+  File "/usr/lib/python3.8/smtplib.py", line 894, in sendmail
+    raise SMTPRecipientsRefused(senderrs)
+smtplib.SMTPRecipientsRefused: {'send_to': (553, b'5.1.3 The recipient address <send_to> is not a valid RFC-5321 address. Learn\n5.1.3 more at\n5.1.3  https://support.google.com/mail/answer/6596 ce9-20020a17090aff0900b001cd4989ff62sm4278637pjb.41 - gsmtp')}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/regi/.local/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py", line 11, in my_job
+    email_send(send_to)
+  File "/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email_v2.py", line 62, in email_send
+    raise AccessError(e)
+src.error.AccessError: 403 Forbidden: {'send_to': (553, b'5.1.3 The recipient address <send_to> is not a valid RFC-5321 address. Learn\n5.1.3 more at\n5.1.3  https://support.google.com/mail/answer/6596 ce9-20020a17090aff0900b001cd4989ff62sm4278637pjb.41 - gsmtp')}

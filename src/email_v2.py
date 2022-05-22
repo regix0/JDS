@@ -41,9 +41,9 @@ def email_send(send_to):
     msgText = MIMEText('<b>%s</b>' % ("Hello! As requested, here is your current dashboard!"), 'html')
     msg.attach(msgText)
     
-    with open('filename.pdf', "rb") as f:
+    with open('dashboard.pdf', "rb") as f:
             attach = MIMEApplication(f.read(),_subtype="pdf")
-    attach.add_header('Content-Disposition','attachment',filename=str('filename.pdf'))
+    attach.add_header('Content-Disposition','attachment',filename=str('dashboard.pdf'))
     msg.attach(attach)
         
     try:
