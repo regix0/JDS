@@ -1,6 +1,7 @@
 import requests
 import json
 import pdfkit
+import urllib
 from pdfkit.api import configuration
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -23,23 +24,28 @@ def email_send(send_to):
     response = requests.request("POST", url, headers=headers, data=payload)
     data = json.loads(response.text)["data"]["dashboardCreateSnapshotUrl"]
     
-    send_from = "seng2021icecream@gmail.com"
-    password = "seng2021"   
+    response = urllib.request.urlopen(data)    
+    file = open("dashboard" + ".pdf", 'wb')
+    file.write(response.read())
+    file.close()
+    
+    send_from = "vinhhao.truong.004@gmail.com"
+    password = "yugqjeuwluogdygr"   
     
     msg = MIMEMultipart()
-    msg['Subject'] = '[Email Test]'
+    msg['Subject'] = 'New Relic Dashboard!'
     msg['From'] = send_from
     msg['To'] = send_to
 
     # Attach body message to email
-    msgText = MIMEText('<b>%s</b>' % ("Hello"), 'html')
+    msgText = MIMEText('<b>%s</b>' % ("Hello! As requested, here is your current dashboard!"), 'html')
     msg.attach(msgText)
     
-    # Attach pdf
-        # pdf = MIMEApplication(open(data, 'rb').read())
-        # pdf.add_header('Content-Disposition',f'attachment;filename = data')
-        # msg.attach(pdf) 
-
+    with open('filename.pdf', "rb") as f:
+            attach = MIMEApplication(f.read(),_subtype="pdf")
+    attach.add_header('Content-Disposition','attachment',filename=str('filename.pdf'))
+    msg.attach(attach)
+        
     try:
         with smtplib.SMTP('smtp.gmail.com', 587) as smtpObj:
             smtpObj.ehlo()

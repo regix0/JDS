@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeated Scheduling...</title>
+  </head>
+  <body>     
+    <form action="" method="post">
+      <h1>Repeated Schedling</h1>
+      <label for="receiver">Receiver: </label>
+      <input type="email" name="receiver" id="receiver" placeholder="Email Address" required>
+      <label for="period">Choose the period: </label>
+      <select onChange="periodChange()" name="period" id="period">
+        <option value="e-day">Every Day</option>
+        <option value="e-week">Every Week</option>
+        <option value="e-fortnight">Every Fortnight</option>
+        <option value="e-month">Every Month</option>
+        <option value="e-year">Every Year</option>
+      </select>
+      <label id="sub-label" for="date"></label>      
+      <button class="submitBtn" type="submit">Submit</button>
+    </form>
+    <script src="../static/repeatedForm.js"></script>
+  </body>
+</html>

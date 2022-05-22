@@ -185,3 +185,35 @@
 2022-05-20 18:06:02,363 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
 2022-05-20 18:06:04,097 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
 2022-05-20 18:06:06,957 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:06:06] "[31m[1mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 403 -
+2022-05-20 18:23:55,606 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:23:57,395 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:24:01,793 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:24:01] "[31m[1mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 403 -
+2022-05-20 18:24:15,109 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-20 18:24:18,064 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:24:19,881 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:24:24,316 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:24:24] "[31m[1mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 403 -
+2022-05-20 18:26:01,939 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-20 18:26:05,203 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:26:07,005 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:26:12,348 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:26:12] "[37mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
+2022-05-20 18:27:04,049 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-20 18:27:25,348 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:27:27,064 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:27:28,664 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:27:28] "[35m[1mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 500 -
+2022-05-20 18:28:28,285 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-20 18:28:43,699 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:28:45,437 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:28:50,982 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:28:50] "[37mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
+2022-05-20 18:29:28,429 INFO server Thread-3 : ------------ EMAIL ROUTE CALLED ------------
+2022-05-20 18:29:28,431 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:29:30,286 DEBUG urllib3.connectionpool Thread-3 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:29:36,175 INFO werkzeug Thread-3 : 127.0.0.1 - - [20/May/2022 18:29:36] "[37mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
+2022-05-20 18:30:59,358 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-20 18:31:02,056 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:31:03,784 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:31:09,595 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:31:09] "[37mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
+2022-05-20 18:31:35,940 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
+2022-05-20 18:38:40,267 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-20 18:38:41,996 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-20 18:38:48,309 INFO werkzeug Thread-2 : 127.0.0.1 - - [20/May/2022 18:38:48] "[37mGET /email/v2?send_to=%22rejisab@gmail.com%22 HTTP/1.1[0m" 200 -
+2022-05-20 18:39:14,305 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/email.py', reloading
