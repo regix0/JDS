@@ -1,0 +1,78 @@
+.home {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeTopAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeTopAnimation {
+  0% {
+      background-color: #343a40;
+      color: #fff;
+      transform: translateY(160vh);
+  }
+  100% {
+      background-color: #fff;
+      color: #343a40;
+      transform: translateX(0);
+  }
+}
+
+.nav-item {
+  background-color: #fff !important;
+}
+
+.active {
+  background-color: #343a40 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.tab-content {
+  background-color: #343a40 !important;
+  min-height: 100vh;
+}
+
+.card {
+  height: inherit;
+  width: inherit;
+}
+
+.h1 {
+  color: #fff !important;
+}
+
+.fade-left {
+  animation: fadeLeftAnimation ease-out 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeLeftAnimation {
+  0% {
+      transform: translateX(-60vw);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+.fade-right {
+  animation: fadeRightAnimation ease-out 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeRightAnimation {
+  0% {
+      transform: translateX(60vw);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}

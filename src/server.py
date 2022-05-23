@@ -52,15 +52,15 @@ def home():
 
 @APP.route("/onetime-form", methods=['GET', 'POST'])
 def onetime_form():
-   res = request.form.to_dict()
+   res = request.form
    APP.logger.info('------------ ONE TIME FORM CALLED ------------')
    take_log()
    #get data when is a response
    if (res):
       data.update({
-         'receiver': res['receiver'],
+         'receiver': res.get('receiver'),
          'repeated': False,
-         'date': res['date']
+         'date': res.get('date')
       })
       scheduled(data)
    print(data)
@@ -68,22 +68,24 @@ def onetime_form():
 
 @APP.route("/repeated-form", methods=['GET', 'POST'])
 def repeated_form():
-   res = request.form.to_dict()
+   res = request.form
    APP.logger.info('------------ REPEATED FORM CALLED ------------')
    take_log()
    #get data when is a response
    if (res):
       data.update({
-         'receiver': res['receiver'],
+         'receiver': res.get('receiver'),
          'repeated': True,
-         'period': res['period'],
+         'period': res.get('period'),
       })
       #condition when there is a specific date
       if(res.get('date')):
-         data['date'] = res['date']
+         data['date'] = res.get['date']
       elif (data.get('date')): #when no date specified but there is a date in prev state
          data.pop('date') #remove prev date
+         
       scheduled(data)
+      
    print(data)
    return render_template("repeated-form.html")
     

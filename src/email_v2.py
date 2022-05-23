@@ -1,8 +1,6 @@
 import requests
 import json
-import pdfkit
 import urllib
-from pdfkit.api import configuration
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -28,9 +26,10 @@ def email_send(send_to):
     file = open("dashboard" + ".pdf", 'wb')
     file.write(response.read())
     file.close()
+    print("Create file")
     
     send_from = "vinhhao.truong.004@gmail.com"
-    password = "yugqjeuwluogdygr"   
+    password = "yugqjeuwluogdygr"  
     
     msg = MIMEMultipart()
     msg['Subject'] = 'New Relic Dashboard!'
@@ -38,13 +37,17 @@ def email_send(send_to):
     msg['To'] = send_to
 
     # Attach body message to email
-    msgText = MIMEText('<b>%s</b>' % ("Hello! As requested, here is your current dashboard!"), 'html')
+    msgText = MIMEText('<b>%s</b>' % ("Hello! As requested, here is your current New Relic Dashboard :)"), 'html')
     msg.attach(msgText)
     
-    with open('dashboard.pdf', "rb") as f:
-            attach = MIMEApplication(f.read(),_subtype="pdf")
-    attach.add_header('Content-Disposition','attachment',filename=str('dashboard.pdf'))
-    msg.attach(attach)
+    try:
+        with open('dashboard.pdf', "rb") as f:
+                attach = MIMEApplication(f.read(),_subtype="pdf")
+        attach.add_header('Content-Disposition','attachment',filename=str('dashboard.pdf'))
+        msg.attach(attach)
+        
+    except Exception as e:
+        raise AccessError(e)
         
     try:
         with smtplib.SMTP('smtp.gmail.com', 587) as smtpObj:
@@ -53,6 +56,7 @@ def email_send(send_to):
             print("Starting server")
             smtpObj.login(send_from, password)
             print("Logged in")
+            print(send_to)
             smtpObj.sendmail(send_from, send_to, msg.as_string())
             print("Done")
             
