@@ -978,3 +978,693 @@ src.error.AccessError: 403 Forbidden: {'send_to': (553, b'5.1.3 The recipient ad
 2022-05-23 15:41:20,269 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
 2022-05-23 15:41:28,801 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 15:41:28] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
 2022-05-23 15:42:44,744 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:08:02,926 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:08:02] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-23 16:08:05,586 INFO server Thread-3 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 16:08:05,594 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 16:08:05] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 16:08:08,087 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:08:08,096 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 16:08:08] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:08:10,877 INFO server Thread-5 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:08:10,923 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 16:08:10] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 16:08:10,953 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 16:08:10] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 16:08:10,956 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 16:08:10] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 16:08:10,957 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 16:08:10] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 16:08:11,020 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 16:08:11] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 16:08:11,042 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 16:08:11] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:08:11,111 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 16:08:11] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:08:23,609 INFO server Thread-12 : ------------ PAGE OPENED ------------
+2022-05-23 16:08:23,613 INFO werkzeug Thread-12 : 127.0.0.1 - - [23/May/2022 16:08:23] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-23 16:08:23,950 INFO werkzeug Thread-13 : 127.0.0.1 - - [23/May/2022 16:08:23] "[37mGET /static/custom.css HTTP/1.1[0m" 200 -
+2022-05-23 16:08:25,331 INFO werkzeug Thread-14 : 127.0.0.1 - - [23/May/2022 16:08:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-23 16:08:27,154 INFO server Thread-15 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 16:08:27,159 INFO werkzeug Thread-15 : 127.0.0.1 - - [23/May/2022 16:08:27] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 16:08:28,983 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:16:49,573 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:16:49] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:16:50,012 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 16:16:50] "[37mGET /static/repeatedForm.js HTTP/1.1[0m" 200 -
+2022-05-23 16:16:50,917 INFO server Thread-4 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 16:16:50,927 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 16:16:50] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 16:16:55,471 INFO server Thread-5 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:16:55,475 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 16:16:55] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:17:01,068 INFO server Thread-6 : ------------ PAGE OPENED ------------
+2022-05-23 16:17:01,079 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 16:17:01] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-23 16:17:02,910 INFO server Thread-7 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 16:17:02,914 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 16:17:02] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 16:17:20,141 INFO server Thread-9 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:17:20,193 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 16:17:20] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 16:17:20,227 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 16:17:20] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 16:17:20,231 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 16:17:20] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 16:17:20,231 INFO werkzeug Thread-12 : 127.0.0.1 - - [23/May/2022 16:17:20] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 16:17:20,324 INFO werkzeug Thread-13 : 127.0.0.1 - - [23/May/2022 16:17:20] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 16:17:20,337 INFO werkzeug Thread-14 : 127.0.0.1 - - [23/May/2022 16:17:20] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:17:20,391 INFO werkzeug Thread-15 : 127.0.0.1 - - [23/May/2022 16:17:20] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:17:29,604 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:17:34,205 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:17:34] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 16:17:34,247 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 16:17:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 16:17:34,250 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 16:17:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 16:17:34,251 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 16:17:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 16:17:34,307 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 16:17:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 16:17:34,321 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 16:17:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:17:34,353 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 16:17:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:18:01,020 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:18:29,183 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:18:29] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 16:18:29,219 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 16:18:29] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 16:18:29,223 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 16:18:29] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 16:18:29,224 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 16:18:29] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 16:18:29,275 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 16:18:29] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 16:18:29,289 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 16:18:29] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:18:29,324 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 16:18:29] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:19:34,495 INFO server Thread-9 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:19:34,540 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 16:19:34] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 16:19:34,587 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 16:19:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 16:19:34,590 INFO werkzeug Thread-12 : 127.0.0.1 - - [23/May/2022 16:19:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 16:19:34,591 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 16:19:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 16:19:34,639 INFO werkzeug Thread-13 : 127.0.0.1 - - [23/May/2022 16:19:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 16:19:34,651 INFO werkzeug Thread-14 : 127.0.0.1 - - [23/May/2022 16:19:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:19:34,688 INFO werkzeug Thread-15 : 127.0.0.1 - - [23/May/2022 16:19:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:19:45,845 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:19:58,019 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:19:58] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:20:24,648 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:20:24,655 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 16:20:24] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:20:41,412 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 16:20:41,419 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 16:20:41] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:20:46,063 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:20:50,110 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:20:50] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:21:14,466 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:21:21,792 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:21:21] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 16:31:45,658 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 16:33:25,896 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 16:33:25] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 16:33:25,978 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 16:33:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 16:33:25,987 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 16:33:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 16:33:25,988 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 16:33:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 16:33:26,183 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 16:33:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 16:33:26,222 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 16:33:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:33:26,348 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 16:33:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 16:33:42,647 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 20:53:44,198 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 20:53:44] "[37mGET / HTTP/1.1[0m" 200 -
+2022-05-23 20:53:46,000 INFO server Thread-3 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 20:53:46,037 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 20:53:46] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 20:53:51,864 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 20:53:51,894 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 20:53:51] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 20:55:02,758 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:05:53,999 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:05:53] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:05:54,091 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:05:54,094 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:05:54,096 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:05:54,300 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:05:54,389 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:05:54,525 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:06:22,653 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:06:37,451 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:06:37] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:06:40,240 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:06:40,251 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:06:40] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:06:44,245 INFO server Thread-4 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 21:06:44,268 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:06:44] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 21:06:45,157 INFO server Thread-5 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:06:45,169 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:06:45] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:06:54,462 INFO server Thread-6 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:06:54,470 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:06:54] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:08:00,533 INFO server Thread-7 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:08:25,230 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 21:08:44,279 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:08:44] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:08:44,373 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:08:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:08:44,383 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:08:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:08:44,387 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:08:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:08:44,633 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:08:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:08:44,768 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:08:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:08:44,902 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:08:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:09:31,225 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 21:09:42,246 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:09:42] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:09:51,014 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:10:37,618 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:10:37] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:10:45,047 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:11:38,281 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:11:38] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:11:41,636 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:11:51,657 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 21:11:53,709 DEBUG urllib3.connectionpool Thread-3 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 21:12:48,666 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:12:48] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:12:55,927 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:12:56,075 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:12:56] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:12:56,173 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:12:56] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:12:56,178 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:12:56] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:12:56,184 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:12:56] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:12:56,295 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:12:56] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:12:56,370 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:12:56] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:12:56,482 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:12:56] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:14:07,838 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 21:15:13,848 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:15:21,433 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:15:21] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:15:29,048 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:17:08,444 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 21:17:14,451 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:17:14] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:17:24,449 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:17:52,985 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 21:17:57,955 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:17:57] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:18:03,914 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:18:38,200 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:18:53,808 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:18:53] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:18:59,809 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:18:59,935 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:18:59] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:19:00,049 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:19:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:19:00,054 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:19:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:19:00,062 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:19:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:19:00,223 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:19:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:19:00,283 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:19:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:19:00,427 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:19:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:19:18,506 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:19:33,990 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 21:19:36,003 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 21:19:42,195 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 21:19:43,918 DEBUG urllib3.connectionpool Thread-2 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 21:27:14,187 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:27:14] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:27:19,406 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:27:19,538 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:27:19] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:27:19,638 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:27:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:27:19,642 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:27:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:27:19,644 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:27:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:27:19,808 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:27:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:27:19,909 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:27:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:27:19,975 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:27:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:27:51,913 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:27:59,596 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:27:59] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 21:28:00,221 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:28:00,242 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:28:00] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:28:06,428 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:28:06,528 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:28:06] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:28:06,607 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:28:06] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:28:06,617 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:28:06] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:28:06,618 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:28:06] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:28:06,735 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:28:06] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:28:06,770 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:28:06] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:28:06,887 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 21:28:06] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:28:21,806 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:28:28,096 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:28:28] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 21:28:28,958 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:28:28,983 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:28:28] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:28:35,378 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:30:30,322 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:40:48,491 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:40:48] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:40:57,204 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:40:57,353 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:40:57] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:40:57,456 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:40:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:40:57,461 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:40:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:40:57,465 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:40:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:40:57,585 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:40:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:40:57,662 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:40:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:40:57,802 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:40:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:41:09,757 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:41:36,875 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:41:36] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:41:36,979 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:41:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:41:36,980 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:41:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:41:36,988 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:41:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:41:37,130 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:41:37] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:41:37,195 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:41:37] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:41:37,309 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:41:37] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:42:30,472 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:42:44,769 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:42:44] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 21:42:45,388 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:42:45,405 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:42:45] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:42:52,190 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:42:52,302 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:42:52] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:42:52,401 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:42:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:42:52,407 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:42:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:42:52,412 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:42:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:42:52,531 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:42:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:42:52,574 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:42:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:42:52,688 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 21:42:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:43:06,632 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:43:11,491 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:43:11] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:43:13,189 INFO server Thread-3 : ------------ ONE TIME FORM CALLED ------------
+2022-05-23 21:43:13,221 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:43:13] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 21:43:13,836 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:43:13,846 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:43:13] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:43:21,448 INFO server Thread-5 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:43:21,594 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:43:21] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:43:21,673 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:43:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:43:21,680 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:43:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:43:21,686 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:43:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:43:21,784 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:43:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:43:21,830 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 21:43:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:43:21,939 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 21:43:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:43:54,040 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:43:59,584 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:43:59] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 21:44:00,190 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:44:00,212 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:44:00] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:44:15,220 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:44:15,361 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:44:15] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:44:15,458 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:44:15] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:44:15,465 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:44:15] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:44:15,467 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:44:15] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:44:15,686 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:44:15] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:44:15,756 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:44:15] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:44:15,886 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 21:44:15] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:46:19,897 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:46:35,143 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:46:35] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:46:35,232 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:46:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:46:35,233 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:46:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:46:35,236 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:46:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:46:35,355 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:46:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:46:35,423 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:46:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:46:35,537 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:46:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:47:14,506 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:47:26,467 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:47:26] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:47:26,559 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:47:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:47:26,566 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:47:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:47:26,571 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:47:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:47:26,674 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:47:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:47:26,730 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:47:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:47:26,849 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:47:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:47:58,261 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:48:55,771 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-23 21:48:55,772 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 21:48:55,773 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2023-05-22 00:00:00+10:00 (in 31371064.226155 seconds)
+2022-05-23 21:49:41,028 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:49:56,385 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:49:56] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:50:04,277 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:50:04,342 INFO apscheduler.scheduler Thread-3 : Added job "my_job" to job store "default"
+2022-05-23 21:50:04,343 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 21:50:04,345 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2023-05-22 00:00:00+10:00 (in 31370995.654929 seconds)
+2022-05-23 21:51:06,449 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:51:13,206 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:51:13] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:51:18,946 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:51:19,003 INFO apscheduler.scheduler Thread-3 : Added job "my_job" to job store "default"
+2022-05-23 21:51:19,005 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 21:51:19,006 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-23 21:52:00+10:00 (in 40.993911 seconds)
+2022-05-23 21:51:20,361 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:51:20,364 INFO apscheduler.scheduler Thread-4 : Added job "my_job" to job store "default"
+2022-05-23 21:51:20,365 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 21:51:20,366 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-23 21:52:00+10:00 (in 39.633180 seconds)
+2022-05-23 21:52:00,001 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 21:52:00,003 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "my_job (trigger: interval[364 days, 0:00:00], next run at: 2022-05-23 21:52:00 AEST)" (scheduled at 2022-05-23 21:52:00+10:00)
+2022-05-23 21:52:00,004 INFO apscheduler.executors.default ThreadPoolExecutor-0_1 : Running job "my_job (trigger: interval[364 days, 0:00:00], next run at: 2023-05-22 21:52:00 AEST)" (scheduled at 2022-05-23 21:52:00+10:00)
+2022-05-23 21:52:00,005 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2023-05-22 21:52:00+10:00 (in 31449599.997314 seconds)
+2022-05-23 21:52:00,014 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 21:52:00,015 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_1 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 21:52:01,962 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 21:52:01,963 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_1 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 21:52:07,697 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "my_job (trigger: interval[364 days, 0:00:00], next run at: 2023-05-22 21:52:00 AEST)" executed successfully
+2022-05-23 21:52:08,862 INFO apscheduler.executors.default ThreadPoolExecutor-0_1 : Job "my_job (trigger: interval[364 days, 0:00:00], next run at: 2023-05-22 21:52:00 AEST)" executed successfully
+2022-05-23 21:53:29,420 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:53:29] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:54:47,366 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:55:33,881 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:55:33] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:55:34,003 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:55:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:55:34,006 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:55:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:55:34,008 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:55:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:55:34,209 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:55:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:55:34,296 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:55:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:55:34,418 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:55:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:56:44,434 INFO server Thread-9 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:56:44,469 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 21:56:44] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 21:56:53,515 INFO server Thread-10 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 21:56:53,621 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 21:56:53] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:56:53,711 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 21:56:53] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:56:53,717 INFO werkzeug Thread-12 : 127.0.0.1 - - [23/May/2022 21:56:53] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:56:53,721 INFO werkzeug Thread-13 : 127.0.0.1 - - [23/May/2022 21:56:53] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:56:53,854 INFO werkzeug Thread-14 : 127.0.0.1 - - [23/May/2022 21:56:53] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:56:53,895 INFO werkzeug Thread-15 : 127.0.0.1 - - [23/May/2022 21:56:53] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:56:54,009 INFO werkzeug Thread-16 : 127.0.0.1 - - [23/May/2022 21:56:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:57:38,591 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 21:57:58,545 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 21:57:58] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 21:57:58,633 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 21:57:58] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 21:57:58,648 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 21:57:58] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 21:57:58,650 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 21:57:58] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 21:57:58,766 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 21:57:58] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 21:57:58,825 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 21:57:58] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:57:58,978 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 21:57:58] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 21:59:28,232 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:01:00,327 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:01:00] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 22:01:01,420 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:01:01,454 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:01:01] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 22:01:07,871 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:01:07,993 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:01:07] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:01:08,065 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:01:08] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:01:08,077 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:01:08] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:01:08,079 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:01:08] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:01:08,199 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:01:08] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:01:08,281 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 22:01:08] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:01:08,401 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 22:01:08] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:01:39,764 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:01:45,547 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:01:45] "[37mGET /onetime-form HTTP/1.1[0m" 200 -
+2022-05-23 22:01:46,063 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:01:46,088 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:01:46] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 22:01:50,997 INFO server Thread-4 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:01:51,188 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:01:51] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:01:51,282 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:01:51] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:01:51,286 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:01:51] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:01:51,293 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:01:51] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:01:51,458 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:01:51] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:01:51,463 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 22:01:51] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:01:51,614 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 22:01:51] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:02:17,093 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:02:31,111 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-23 22:02:31,113 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 22:02:31,114 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-23 22:03:00+10:00 (in 28.885692 seconds)
+2022-05-23 22:02:31,142 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:02:31] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 22:03:00,002 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 22:03:00,004 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "my_job (trigger: interval[28 days, 0:00:00], next run at: 2022-05-23 22:03:00 AEST)" (scheduled at 2022-05-23 22:03:00+10:00)
+2022-05-23 22:03:00,004 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-06-20 22:03:00+10:00 (in 2419199.996737 seconds)
+2022-05-23 22:03:00,010 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 22:03:01,938 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 22:03:08,123 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "my_job (trigger: interval[28 days, 0:00:00], next run at: 2022-06-20 22:03:00 AEST)" executed successfully
+2022-05-23 22:07:52,783 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:18:00,079 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:18:00] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:18:00,115 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:18:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:18:00,117 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:18:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:18:00,119 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:18:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:18:00,213 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:18:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:18:00,232 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:18:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:18:00,290 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:18:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:18:17,670 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:18:50,755 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:18:50] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:18:50,802 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:18:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:18:50,805 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:18:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:18:50,805 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:18:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:18:50,921 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:18:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:18:50,936 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:18:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:18:50,974 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:18:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:19:43,428 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:20:21,680 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:20:21] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:20:21,723 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:20:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:20:21,724 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:20:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:20:21,725 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:20:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:20:21,836 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:20:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:20:21,851 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:20:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:20:21,894 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:20:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:23:08,574 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:27:21,081 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:27:21] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:27:21,119 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:27:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:27:21,122 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:27:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:27:21,123 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:27:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:27:21,231 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:27:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:27:21,248 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:27:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:27:21,291 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:27:21] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:28:52,128 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:32:36,828 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:32:36] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:32:36,870 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:32:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:32:36,870 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:32:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:32:36,871 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:32:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:32:36,987 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:32:36] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:32:37,004 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:32:37] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:32:37,048 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:32:37] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:32:56,454 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 22:33:50,369 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:33:50] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:33:50,414 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:33:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:33:50,414 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:33:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:33:50,418 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:33:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:33:50,529 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:33:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:33:50,546 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:33:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:33:50,591 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:33:50] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:39:15,682 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/server.py', reloading
+2022-05-23 22:41:38,569 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 22:41:38] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:41:38,602 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 22:41:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:41:38,602 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 22:41:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:41:38,603 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 22:41:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:41:38,664 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 22:41:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:41:38,684 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 22:41:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:41:38,755 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 22:41:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:42:00,812 INFO server Thread-8 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:42:00,866 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 22:42:00] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:42:00,908 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 22:42:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:42:00,911 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 22:42:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:42:00,914 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 22:42:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:42:00,970 INFO werkzeug Thread-12 : 127.0.0.1 - - [23/May/2022 22:42:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:42:00,986 INFO werkzeug Thread-13 : 127.0.0.1 - - [23/May/2022 22:42:00] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:42:01,030 INFO werkzeug Thread-14 : 127.0.0.1 - - [23/May/2022 22:42:01] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:42:27,186 INFO server Thread-15 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:42:27,234 INFO werkzeug Thread-15 : 127.0.0.1 - - [23/May/2022 22:42:27] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:42:27,285 INFO werkzeug Thread-16 : 127.0.0.1 - - [23/May/2022 22:42:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:42:27,287 INFO werkzeug Thread-17 : 127.0.0.1 - - [23/May/2022 22:42:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:42:27,288 INFO werkzeug Thread-18 : 127.0.0.1 - - [23/May/2022 22:42:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:42:27,351 INFO werkzeug Thread-19 : 127.0.0.1 - - [23/May/2022 22:42:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:42:27,369 INFO werkzeug Thread-20 : 127.0.0.1 - - [23/May/2022 22:42:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:42:27,435 INFO werkzeug Thread-21 : 127.0.0.1 - - [23/May/2022 22:42:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:43:12,336 INFO server Thread-22 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:43:12,385 INFO werkzeug Thread-22 : 127.0.0.1 - - [23/May/2022 22:43:12] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:43:12,427 INFO werkzeug Thread-23 : 127.0.0.1 - - [23/May/2022 22:43:12] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:43:12,428 INFO werkzeug Thread-24 : 127.0.0.1 - - [23/May/2022 22:43:12] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:43:12,430 INFO werkzeug Thread-25 : 127.0.0.1 - - [23/May/2022 22:43:12] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:43:12,487 INFO werkzeug Thread-26 : 127.0.0.1 - - [23/May/2022 22:43:12] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:43:12,503 INFO werkzeug Thread-27 : 127.0.0.1 - - [23/May/2022 22:43:12] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:43:12,543 INFO werkzeug Thread-28 : 127.0.0.1 - - [23/May/2022 22:43:12] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:45:02,858 INFO server Thread-29 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:45:27,602 INFO werkzeug Thread-29 : 127.0.0.1 - - [23/May/2022 22:45:27] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:45:27,640 INFO werkzeug Thread-30 : 127.0.0.1 - - [23/May/2022 22:45:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:45:27,641 INFO werkzeug Thread-31 : 127.0.0.1 - - [23/May/2022 22:45:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:45:27,642 INFO werkzeug Thread-32 : 127.0.0.1 - - [23/May/2022 22:45:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:45:27,752 INFO werkzeug Thread-33 : 127.0.0.1 - - [23/May/2022 22:45:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:45:27,769 INFO werkzeug Thread-34 : 127.0.0.1 - - [23/May/2022 22:45:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:45:27,810 INFO werkzeug Thread-35 : 127.0.0.1 - - [23/May/2022 22:45:27] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:47:18,870 INFO server Thread-36 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:47:18,918 INFO werkzeug Thread-36 : 127.0.0.1 - - [23/May/2022 22:47:18] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:47:18,959 INFO werkzeug Thread-37 : 127.0.0.1 - - [23/May/2022 22:47:18] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:47:18,963 INFO werkzeug Thread-38 : 127.0.0.1 - - [23/May/2022 22:47:18] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:47:18,965 INFO werkzeug Thread-39 : 127.0.0.1 - - [23/May/2022 22:47:18] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:47:19,016 INFO werkzeug Thread-40 : 127.0.0.1 - - [23/May/2022 22:47:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:47:19,034 INFO werkzeug Thread-41 : 127.0.0.1 - - [23/May/2022 22:47:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:47:19,072 INFO werkzeug Thread-42 : 127.0.0.1 - - [23/May/2022 22:47:19] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:47:48,829 INFO server Thread-43 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:47:48,878 INFO werkzeug Thread-43 : 127.0.0.1 - - [23/May/2022 22:47:48] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:47:48,912 INFO werkzeug Thread-44 : 127.0.0.1 - - [23/May/2022 22:47:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:47:48,913 INFO werkzeug Thread-45 : 127.0.0.1 - - [23/May/2022 22:47:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:47:48,916 INFO werkzeug Thread-46 : 127.0.0.1 - - [23/May/2022 22:47:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:47:48,971 INFO werkzeug Thread-47 : 127.0.0.1 - - [23/May/2022 22:47:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:47:48,992 INFO werkzeug Thread-48 : 127.0.0.1 - - [23/May/2022 22:47:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:47:49,026 INFO werkzeug Thread-49 : 127.0.0.1 - - [23/May/2022 22:47:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:49:26,048 INFO server Thread-50 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:49:26,099 INFO werkzeug Thread-50 : 127.0.0.1 - - [23/May/2022 22:49:26] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:49:26,140 INFO werkzeug Thread-51 : 127.0.0.1 - - [23/May/2022 22:49:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:49:26,147 INFO werkzeug Thread-52 : 127.0.0.1 - - [23/May/2022 22:49:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:49:26,148 INFO werkzeug Thread-53 : 127.0.0.1 - - [23/May/2022 22:49:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:49:26,199 INFO werkzeug Thread-54 : 127.0.0.1 - - [23/May/2022 22:49:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:49:26,216 INFO werkzeug Thread-55 : 127.0.0.1 - - [23/May/2022 22:49:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:49:26,251 INFO werkzeug Thread-56 : 127.0.0.1 - - [23/May/2022 22:49:26] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:49:35,352 INFO server Thread-57 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:49:35,387 INFO werkzeug Thread-57 : 127.0.0.1 - - [23/May/2022 22:49:35] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:49:35,423 INFO werkzeug Thread-58 : 127.0.0.1 - - [23/May/2022 22:49:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:49:35,423 INFO werkzeug Thread-59 : 127.0.0.1 - - [23/May/2022 22:49:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:49:35,425 INFO werkzeug Thread-60 : 127.0.0.1 - - [23/May/2022 22:49:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:49:35,480 INFO werkzeug Thread-61 : 127.0.0.1 - - [23/May/2022 22:49:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:49:35,498 INFO werkzeug Thread-62 : 127.0.0.1 - - [23/May/2022 22:49:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:49:35,538 INFO werkzeug Thread-63 : 127.0.0.1 - - [23/May/2022 22:49:35] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:50:24,334 INFO server Thread-64 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:50:24,374 INFO werkzeug Thread-64 : 127.0.0.1 - - [23/May/2022 22:50:24] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:50:24,416 INFO werkzeug Thread-65 : 127.0.0.1 - - [23/May/2022 22:50:24] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:50:24,416 INFO werkzeug Thread-66 : 127.0.0.1 - - [23/May/2022 22:50:24] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:50:24,417 INFO werkzeug Thread-67 : 127.0.0.1 - - [23/May/2022 22:50:24] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:50:24,474 INFO werkzeug Thread-68 : 127.0.0.1 - - [23/May/2022 22:50:24] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:50:24,491 INFO werkzeug Thread-69 : 127.0.0.1 - - [23/May/2022 22:50:24] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:50:24,529 INFO werkzeug Thread-70 : 127.0.0.1 - - [23/May/2022 22:50:24] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:50:43,334 INFO server Thread-71 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:50:43,377 INFO werkzeug Thread-71 : 127.0.0.1 - - [23/May/2022 22:50:43] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:50:43,412 INFO werkzeug Thread-72 : 127.0.0.1 - - [23/May/2022 22:50:43] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:50:43,412 INFO werkzeug Thread-73 : 127.0.0.1 - - [23/May/2022 22:50:43] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:50:43,413 INFO werkzeug Thread-74 : 127.0.0.1 - - [23/May/2022 22:50:43] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:50:43,470 INFO werkzeug Thread-75 : 127.0.0.1 - - [23/May/2022 22:50:43] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:50:43,486 INFO werkzeug Thread-76 : 127.0.0.1 - - [23/May/2022 22:50:43] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:50:43,546 INFO werkzeug Thread-77 : 127.0.0.1 - - [23/May/2022 22:50:43] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:52:23,390 INFO server Thread-78 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:52:23,429 INFO werkzeug Thread-78 : 127.0.0.1 - - [23/May/2022 22:52:23] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:52:23,475 INFO werkzeug Thread-79 : 127.0.0.1 - - [23/May/2022 22:52:23] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:52:23,476 INFO werkzeug Thread-81 : 127.0.0.1 - - [23/May/2022 22:52:23] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:52:23,477 INFO werkzeug Thread-80 : 127.0.0.1 - - [23/May/2022 22:52:23] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:52:23,556 INFO werkzeug Thread-82 : 127.0.0.1 - - [23/May/2022 22:52:23] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:52:23,563 INFO werkzeug Thread-83 : 127.0.0.1 - - [23/May/2022 22:52:23] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:52:23,651 INFO werkzeug Thread-84 : 127.0.0.1 - - [23/May/2022 22:52:23] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:52:49,197 INFO server Thread-85 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:52:49,238 INFO werkzeug Thread-85 : 127.0.0.1 - - [23/May/2022 22:52:49] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:52:49,268 INFO werkzeug Thread-86 : 127.0.0.1 - - [23/May/2022 22:52:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:52:49,272 INFO werkzeug Thread-88 : 127.0.0.1 - - [23/May/2022 22:52:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:52:49,272 INFO werkzeug Thread-87 : 127.0.0.1 - - [23/May/2022 22:52:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:52:49,332 INFO werkzeug Thread-89 : 127.0.0.1 - - [23/May/2022 22:52:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:52:49,349 INFO werkzeug Thread-90 : 127.0.0.1 - - [23/May/2022 22:52:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:52:49,392 INFO werkzeug Thread-91 : 127.0.0.1 - - [23/May/2022 22:52:49] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:54:01,829 INFO server Thread-92 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:54:01,871 INFO werkzeug Thread-92 : 127.0.0.1 - - [23/May/2022 22:54:01] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 22:54:01,912 INFO werkzeug Thread-93 : 127.0.0.1 - - [23/May/2022 22:54:01] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 22:54:01,914 INFO werkzeug Thread-94 : 127.0.0.1 - - [23/May/2022 22:54:01] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 22:54:01,915 INFO werkzeug Thread-95 : 127.0.0.1 - - [23/May/2022 22:54:01] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 22:54:01,970 INFO werkzeug Thread-96 : 127.0.0.1 - - [23/May/2022 22:54:01] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 22:54:01,989 INFO werkzeug Thread-97 : 127.0.0.1 - - [23/May/2022 22:54:01] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:54:02,059 INFO werkzeug Thread-98 : 127.0.0.1 - - [23/May/2022 22:54:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 22:55:49,959 INFO server Thread-99 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 22:55:59,978 DEBUG urllib3.connectionpool Thread-99 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 22:56:01,769 DEBUG urllib3.connectionpool Thread-99 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 22:56:17,703 DEBUG urllib3.connectionpool Thread-99 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 22:56:19,356 DEBUG urllib3.connectionpool Thread-99 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 22:56:34,970 DEBUG urllib3.connectionpool Thread-99 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 22:56:36,854 DEBUG urllib3.connectionpool Thread-99 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 23:00:30,947 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:00:30] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:00:34,187 INFO server Thread-2 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:00:34,220 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-23 23:00:34,222 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:00:34,222 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:00:34.220449+10:00 (in 86399.997858 seconds)
+2022-05-23 23:00:34,274 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:00:34] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:00:34,310 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:00:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:00:34,311 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:00:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:00:34,313 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:00:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:00:34,374 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:00:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:00:34,399 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:00:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:00:34,457 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 23:00:34] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:00:55,465 INFO server Thread-9 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:00:55,467 INFO apscheduler.scheduler Thread-9 : Added job "my_job" to job store "default"
+2022-05-23 23:00:55,467 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:00:55,468 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:00:34.220449+10:00 (in 86378.752006 seconds)
+2022-05-23 23:00:55,518 INFO werkzeug Thread-9 : 127.0.0.1 - - [23/May/2022 23:00:55] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:00:55,561 INFO werkzeug Thread-10 : 127.0.0.1 - - [23/May/2022 23:00:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:00:55,563 INFO werkzeug Thread-11 : 127.0.0.1 - - [23/May/2022 23:00:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:00:55,564 INFO werkzeug Thread-12 : 127.0.0.1 - - [23/May/2022 23:00:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:00:55,623 INFO werkzeug Thread-13 : 127.0.0.1 - - [23/May/2022 23:00:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:00:55,646 INFO werkzeug Thread-14 : 127.0.0.1 - - [23/May/2022 23:00:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:00:55,706 INFO werkzeug Thread-15 : 127.0.0.1 - - [23/May/2022 23:00:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:04:22,372 INFO server Thread-16 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:04:22,374 INFO apscheduler.scheduler Thread-16 : Added job "my_job" to job store "default"
+2022-05-23 23:04:22,375 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:04:22,376 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:00:34.220449+10:00 (in 86171.844300 seconds)
+2022-05-23 23:04:22,423 INFO werkzeug Thread-16 : 127.0.0.1 - - [23/May/2022 23:04:22] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:04:22,457 INFO werkzeug Thread-17 : 127.0.0.1 - - [23/May/2022 23:04:22] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:04:22,458 INFO werkzeug Thread-18 : 127.0.0.1 - - [23/May/2022 23:04:22] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:04:22,461 INFO werkzeug Thread-19 : 127.0.0.1 - - [23/May/2022 23:04:22] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:04:22,515 INFO werkzeug Thread-20 : 127.0.0.1 - - [23/May/2022 23:04:22] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:04:22,528 INFO werkzeug Thread-21 : 127.0.0.1 - - [23/May/2022 23:04:22] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:04:22,585 INFO werkzeug Thread-22 : 127.0.0.1 - - [23/May/2022 23:04:22] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:04:52,135 INFO server Thread-23 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:04:52,136 INFO apscheduler.scheduler Thread-23 : Added job "my_job" to job store "default"
+2022-05-23 23:04:52,137 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:04:52,138 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:00:34.220449+10:00 (in 86142.082313 seconds)
+2022-05-23 23:04:52,185 INFO werkzeug Thread-23 : 127.0.0.1 - - [23/May/2022 23:04:52] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:04:52,225 INFO werkzeug Thread-24 : 127.0.0.1 - - [23/May/2022 23:04:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:04:52,228 INFO werkzeug Thread-26 : 127.0.0.1 - - [23/May/2022 23:04:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:04:52,229 INFO werkzeug Thread-25 : 127.0.0.1 - - [23/May/2022 23:04:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:04:52,281 INFO werkzeug Thread-27 : 127.0.0.1 - - [23/May/2022 23:04:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:04:52,293 INFO werkzeug Thread-28 : 127.0.0.1 - - [23/May/2022 23:04:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:04:52,337 INFO werkzeug Thread-29 : 127.0.0.1 - - [23/May/2022 23:04:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:05:54,835 INFO server Thread-30 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:05:54,836 INFO apscheduler.scheduler Thread-30 : Added job "my_job" to job store "default"
+2022-05-23 23:05:54,837 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:05:54,837 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:00:34.220449+10:00 (in 86079.382593 seconds)
+2022-05-23 23:05:54,875 INFO werkzeug Thread-30 : 127.0.0.1 - - [23/May/2022 23:05:54] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:05:54,911 INFO werkzeug Thread-31 : 127.0.0.1 - - [23/May/2022 23:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:05:54,915 INFO werkzeug Thread-32 : 127.0.0.1 - - [23/May/2022 23:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:05:54,915 INFO werkzeug Thread-33 : 127.0.0.1 - - [23/May/2022 23:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:05:54,968 INFO werkzeug Thread-34 : 127.0.0.1 - - [23/May/2022 23:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:05:54,982 INFO werkzeug Thread-35 : 127.0.0.1 - - [23/May/2022 23:05:54] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:05:55,021 INFO werkzeug Thread-36 : 127.0.0.1 - - [23/May/2022 23:05:55] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:06:48,597 INFO server Thread-37 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:06:48,598 INFO apscheduler.scheduler Thread-37 : Added job "my_job" to job store "default"
+2022-05-23 23:06:48,599 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:06:48,600 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:00:34.220449+10:00 (in 86025.619803 seconds)
+2022-05-23 23:06:48,648 INFO werkzeug Thread-37 : 127.0.0.1 - - [23/May/2022 23:06:48] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:06:48,683 INFO werkzeug Thread-38 : 127.0.0.1 - - [23/May/2022 23:06:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:06:48,686 INFO werkzeug Thread-39 : 127.0.0.1 - - [23/May/2022 23:06:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:06:48,686 INFO werkzeug Thread-40 : 127.0.0.1 - - [23/May/2022 23:06:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:06:48,738 INFO werkzeug Thread-41 : 127.0.0.1 - - [23/May/2022 23:06:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:06:48,751 INFO werkzeug Thread-42 : 127.0.0.1 - - [23/May/2022 23:06:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:06:48,790 INFO werkzeug Thread-43 : 127.0.0.1 - - [23/May/2022 23:06:48] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:07:11,472 INFO apscheduler.scheduler Thread-1 : Added job "my_job" to job store "default"
+2022-05-23 23:07:11,473 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:07:11,473 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-24 23:07:11.472472+10:00 (in 86399.998594 seconds)
+2022-05-23 23:07:11,486 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:07:11] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:09:12,897 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:09:12] "[37mGET /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:09:16,716 INFO server Thread-2 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:09:16,720 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:09:16] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:09:31,228 INFO server Thread-3 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:09:31,232 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:09:31] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:09:44,990 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:09:44] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:10:03,760 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:10:03] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:10:03,804 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:10:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:10:03,806 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:10:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:10:03,807 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:10:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:10:03,906 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:10:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:10:03,959 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:10:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:10:04,002 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:10:04] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:11:45,548 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:11:45] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:11:45,583 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:11:45] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:11:45,585 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:11:45] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:11:45,586 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:11:45] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:11:45,645 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:11:45] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:11:45,664 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:11:45] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:11:45,699 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:11:45] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:12:24,225 INFO apscheduler.scheduler Thread-1 : Added job "my_job" to job store "default"
+2022-05-23 23:12:24,227 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:12:24,227 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-30 00:00:00+10:00 (in 521255.772388 seconds)
+2022-05-23 23:12:24,240 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:12:24] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:13:17,822 INFO apscheduler.scheduler Thread-1 : Added job "my_job" to job store "default"
+2022-05-23 23:13:17,823 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:13:17,823 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-30 00:00:00+10:00 (in 521202.176274 seconds)
+2022-05-23 23:13:17,835 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:13:17] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:14:59,074 INFO server Thread-2 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:14:59,076 INFO apscheduler.scheduler Thread-2 : Added job "my_job" to job store "default"
+2022-05-23 23:14:59,077 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:14:59,077 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-30 00:00:00+10:00 (in 521100.922620 seconds)
+2022-05-23 23:14:59,080 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:14:59] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:15:52,240 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:15:52] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:15:52,277 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:15:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:15:52,278 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:15:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:15:52,281 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:15:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:15:52,377 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:15:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:15:52,392 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:15:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:15:52,453 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:15:52] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:16:15,668 INFO server Thread-8 : ------------ REPEATED FORM CALLED ------------
+2022-05-23 23:16:15,694 INFO apscheduler.scheduler Thread-8 : Added job "my_job" to job store "default"
+2022-05-23 23:16:15,694 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:16:15,695 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-06-20 23:16:00+10:00 (in 2419184.304521 seconds)
+2022-05-23 23:16:15,705 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 23:16:15] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:17:27,886 INFO apscheduler.scheduler Thread-1 : Added job "my_job" to job store "default"
+2022-05-23 23:17:27,887 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:17:27,888 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-05-23 23:18:00+10:00 (in 32.111572 seconds)
+2022-05-23 23:17:27,899 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:17:27] "[37mPOST /repeated-form HTTP/1.1[0m" 200 -
+2022-05-23 23:18:00,000 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2022-05-23 23:18:00,001 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Running job "my_job (trigger: interval[28 days, 0:00:00], next run at: 2022-05-23 23:18:00 AEST)" (scheduled at 2022-05-23 23:18:00+10:00)
+2022-05-23 23:18:00,002 DEBUG apscheduler.scheduler APScheduler : Next wakeup is due at 2022-06-20 23:18:00+10:00 (in 2419199.998533 seconds)
+2022-05-23 23:18:00,005 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : Starting new HTTPS connection (1): api.newrelic.com:443
+2022-05-23 23:18:01,724 DEBUG urllib3.connectionpool ThreadPoolExecutor-0_0 : https://api.newrelic.com:443 "POST /graphql HTTP/1.1" 200 None
+2022-05-23 23:18:08,486 INFO apscheduler.executors.default ThreadPoolExecutor-0_0 : Job "my_job (trigger: interval[28 days, 0:00:00], next run at: 2022-06-20 23:18:00 AEST)" executed successfully
+2022-05-23 23:19:03,067 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:19:03] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:19:03,109 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:19:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:19:03,113 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:19:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:19:03,114 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:19:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:19:03,209 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:19:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:19:03,228 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:19:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:19:03,285 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:19:03] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:19:44,269 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:19:44] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:19:44,304 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:19:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:19:44,309 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:19:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:19:44,309 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:19:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:19:44,361 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:19:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:19:44,376 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:19:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:19:44,420 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:19:44] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:20:38,620 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:20:38] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:20:38,660 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:20:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:20:38,663 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:20:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:20:38,665 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:20:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:20:38,716 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:20:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:20:38,729 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:20:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:20:38,794 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:20:38] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:21:02,523 INFO werkzeug Thread-1 : 127.0.0.1 - - [23/May/2022 23:21:02] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:21:02,558 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:21:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:21:02,560 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:21:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:21:02,562 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:21:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:21:02,614 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:21:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:21:02,629 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:21:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:21:02,675 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:21:02] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:22:57,056 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:22:57] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:22:57,105 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:22:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:22:57,107 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:22:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:22:57,108 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:22:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:22:57,165 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:22:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:22:57,180 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:22:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:22:57,241 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 23:22:57] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:24:07,108 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 23:24:25,219 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:24:25] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:24:25,256 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:24:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:24:25,257 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:24:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:24:25,257 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:24:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:24:25,325 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:24:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:24:25,328 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:24:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:24:25,380 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 23:24:25] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:24:45,002 INFO werkzeug MainThread :  * Detected change in '/mnt/c/Users/rejis/Documents/COMP/jds/JDS/src/scheduling.py', reloading
+2022-05-23 23:25:04,834 INFO werkzeug Thread-2 : 127.0.0.1 - - [23/May/2022 23:25:04] "[35m[1mPOST /repeated-form HTTP/1.1[0m" 500 -
+2022-05-23 23:25:04,880 INFO werkzeug Thread-3 : 127.0.0.1 - - [23/May/2022 23:25:04] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2022-05-23 23:25:04,880 INFO werkzeug Thread-4 : 127.0.0.1 - - [23/May/2022 23:25:04] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2022-05-23 23:25:04,883 INFO werkzeug Thread-5 : 127.0.0.1 - - [23/May/2022 23:25:04] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2022-05-23 23:25:04,950 INFO werkzeug Thread-6 : 127.0.0.1 - - [23/May/2022 23:25:04] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2022-05-23 23:25:04,957 INFO werkzeug Thread-7 : 127.0.0.1 - - [23/May/2022 23:25:04] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2022-05-23 23:25:05,015 INFO werkzeug Thread-8 : 127.0.0.1 - - [23/May/2022 23:25:05] "[37mGET /repeated-form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -

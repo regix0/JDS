@@ -79,19 +79,23 @@ def repeated_form():
          'period': res.get('period'),
       })
       #condition when there is a specific date
-      if(res.get('date')):
-         data['date'] = res.get['date']
+      if (res.get('date')):
+         print(res.get('date'))
+         data.update({
+            'date' : res.get('date')
+         })
       elif (data.get('date')): #when no date specified but there is a date in prev state
          data.pop('date') #remove prev date
-         
-      scheduled(data)
-      
+      print(data)
+      scheduled(data)  
    print(data)
    return render_template("repeated-form.html")
-    
+   
+   
 if __name__ == "__main__":
     APP.run(port=config.PORT, debug=true, host="127.0.0.1")
-    
+   
+   # use_reloader=False
 #  data usages:
 #     ['receiver']: receiver email ->String
 #     ['repeated']: False if one-time, True if repeated ->Bool

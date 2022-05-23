@@ -53,7 +53,7 @@ function periodChange() {
         `
       <div class="sub-sel form-group mt-4">
         <label for="date">Choose Specific Date of A Year</label>         
-        <input class="form-control" name="sub-input" id="sub-input" type="date" required/>
+        <input class="form-control" name="date" id="date" type="date" required/>
       </div>
       `
       );

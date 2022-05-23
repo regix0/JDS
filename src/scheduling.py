@@ -1,18 +1,15 @@
+import datetime
 from datetime import date
 from apscheduler.schedulers.background import BackgroundScheduler
-import schedule
-from schedule import every, repeat
-import functools
-from functools import partial
 from src.email_v2 import email_send
+from datetime import date
+from apscheduler.triggers.combining import AndTrigger
+from apscheduler.triggers.interval import IntervalTrigger
+from apscheduler.triggers.cron import CronTrigger
 import time
-from time import sleep
-from crontab import CronTab
-
 
 sched = BackgroundScheduler(daemon=True)
 sched.start()
-cron = CronTab(user='root')
 
 def my_job(send_to):
     print("Doing Job...")
@@ -36,30 +33,37 @@ def scheduled(data):
     if data['repeated'] == True:
         print(data['period'])
         if data['period'] == 'e-day':
-            print(receiver)
-            while True:
-                 sleep(86400)
-                 my_job(receiver)
-                
-                
-            schedule.every(2).minutes.do(my_job, data['receiver'])
-            #schedule.evert().minutes.do(my_job(receiver))
-            #schedule.every().day.at("9:00").do(my_job)
+            sched.add_job(my_job, 'interval', days=1, args=[receiver])
             
         if data['period'] == 'e-week':
-            while True:
-                 sleep(86400)
-                 my_job(receiver)
-            # schedule.every(1).weeks.do(my_job)
+            print(data['date'])
+            day = str(data['date'])
+            days = day[0:3]
+            print (days)
+            sched.add_job(my_job, 'cron', day_of_week= str(days),args=[receiver])
             
         if data['period'] == 'e-fortnight':
-            # schedule.every(2).weeks.do(my_job)
+            day = data['date']
+            days = day[0:3]
+            print(days)
+            
+            sched.add_job(my_job, 'cron', day= '1st ' + days + ' 3rd ' + days, args=[receiver])
             
         if data['period'] == 'e-month':
-            schedule.every(1).months.do(my_job)
+            today = date.today()
+            start = str(data['date'])
+            year = str(today.year)
+            month = str(today.month)
+            start = year + "-" + month + "-" + start + " 23:18:00"
+            print(start)
+            sched.add_job(my_job, 'interval', weeks=4, start_date=str(start), args=[receiver])
             
-        if data['period'] == 'e-year':  
-            schedule.every(12).months.do(my_job)
-    
-    
+        if data['period'] == 'e-year': 
+            start = str(data['date'])
+            print (start)
+            start = start + "23:23:00"
+            sched.add_job(my_job, 'interval', weeks=52, start_date=str(start), args=[receiver])
+            
+            
+        
     
