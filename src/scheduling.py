@@ -27,7 +27,7 @@ def scheduled(data):
         exec_date = date(year, month, day)
         
         print("Adding job...")
-        ob = sched.add_job(my_job, 'date', run_date='2022-05-22 16:21:05', args = [receiver])
+        ob = sched.add_job(my_job, 'date', run_date='2022-05-24 9:54:05', args = [receiver])
         print("Job added")
 
     if data['repeated'] == True:
@@ -54,14 +54,14 @@ def scheduled(data):
             start = str(data['date'])
             year = str(today.year)
             month = str(today.month)
-            start = year + "-" + month + "-" + start + " 23:18:00"
+            start = year + "-" + month + "-" + start + " 09:00"
             print(start)
             sched.add_job(my_job, 'interval', weeks=4, start_date=str(start), args=[receiver])
             
         if data['period'] == 'e-year': 
             start = str(data['date'])
             print (start)
-            start = start + "23:23:00"
+            start = start + " 23:23:00"
             sched.add_job(my_job, 'interval', weeks=52, start_date=str(start), args=[receiver])
             
             
